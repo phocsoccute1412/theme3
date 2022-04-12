@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+header h2,
+header h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+header h2 {
+    color: yellow;
+}
+
+header h1 {
+    color: dimgrey;
+}
+
+header {
+    padding-top: 84px;
+}
+
+div.menu a {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1em;
+    padding: 0px 50px;
+    font-weight: 700;
+    color: rgba(245, 245, 245, 0.521);
+    text-decoration: none;
+}
+
+.menu {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(57, 29, 4);
+    height: 70px;
+}
+
+.divnho {
+    padding-top: 24px;
+}
+
+.anhvatext {
+    position: relative;
+    margin-top: 100px;
+}
+
+div.tieudetext p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.tieudetext p:first-child {
+    font-weight: 700;
+    padding-top: 42px;
+}
+
+div.tieudetext p:nth-child(2) {
+    font-size: 2em;
+    margin-top: -15px;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    background-color: bisque;
+    z-index: 2;
+    display: block;
+    width: 514px;
+    height: 300px;
+    left: 305px;
+    margin-top: 100px;
+}
+
+.anh {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    right: 200px;
+}
+
+.nut {
+    position: absolute;
+    z-index: 3;
+    top: 376px;
+    left: 494px;
+}
+
+.anh img {
+    display: block;
+    width: 672px;
+    height: 500px;
+    right: 0px;
+}
+
+.promise {
+    display: block;
+    position: absolute;
+    margin-top: 36rem;
+    background-color: rgb(212, 118, 56);
+    height: 25em;
+}
+
+.subpromise {
+    display: inline-block;
+    margin: 18em;
+    margin-top: 5em;
+    border: 1px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.tieudepromise span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.tieudepromise span:first-child {
+    font-size: 1.5em;
+    margin-top: 27px;
+}
+
+.tieudepromise span:nth-child(2) {
+    font-size: 4em;
+    margin-top: -24px;
+}
+
+.noidungpromise span {
+    margin: 10px;
+}
+
+footer {
+    display: block;
+    background-color: rgba(47, 23, 15, 0.9);
+    margin-top: 74em;
+    height: 8em;
+    text-align: center;
+}
+
+footer span {
+    display: block;
+    padding-top: 3em;
+    color: wheat;
+}
+
+div.menu a:hover {
+    font-size: 1.2em;
+    color: aliceblue;
+}
